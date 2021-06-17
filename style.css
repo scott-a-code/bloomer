@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+.header-container {
+    background-color: #383737;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.mybutton {
+    padding: 10px 20px;
+    border: solid 1px white;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+main {
+    max-width: 1024px;
+    margin: 0 auto;
+    border:solid 1px gold;
+    height: 1000px;
+}
